@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5035912c-61eb-4bc5-a74c-2f16c3b2c7be" name="pokemon" url="http://www.pokemon.ahmad.web.bbq">
+        <fileTransfer rootFolder="/var/www/pokemon" accessType="SFTP" host="www.ahmad.web.bbq" port="22" sshConfigId="a05d215e-d18b-4b4d-82cf-d6938dcf108e" sshConfig="moudycode@www.ahmad.web.bbq:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

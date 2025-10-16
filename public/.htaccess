@@ -1,0 +1,11 @@
+
+DirectoryIndex index.php
+RewriteEngine On
+
+# Verhindere, dass statische Dateien an index.php umgeleitet werden
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Alles andere geht an index.php
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
